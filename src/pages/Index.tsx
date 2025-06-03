@@ -1,6 +1,16 @@
 import { useState } from 'react'
 import { KanbanBoard } from '@/components/kanban/board'
-import { Sidebar } from '@/components/ui/sidebar'
+import { 
+  Sidebar,
+  SidebarHeader,
+  SidebarInput,
+  SidebarContent,
+  SidebarGroup,
+  SidebarGroupLabel,
+  SidebarMenu,
+  SidebarMenuItem,
+  SidebarMenuButton
+} from '@/components/ui/sidebar'
 import { FileText, CalendarDays, Gavel, Bookmark, Search } from 'lucide-react'
 
 const Index = () => {
